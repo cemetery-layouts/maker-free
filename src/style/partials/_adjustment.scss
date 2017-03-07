@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	font: 16px/1.42 'ralewaythin', sans-serif;
+}
+.wrapper {
+	display: block;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	background-color: $bgColor;
+}
+.container {
+	display: block;
+	width: 1170px;
+	margin: 0 auto;
+	@extend %clearfix;
+}
+.section {
+	color: #fff;
+	@include font-size(15px);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	line-height: 1.42;
+	font-size: 1rem;
+	margin: 0;
+}
