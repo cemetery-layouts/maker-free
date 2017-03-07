@@ -19,22 +19,22 @@ var path = {
         html: 'build/',
         js: 'build/js/',
         css: 'build/css/',
-        img: 'build/img/',
-        fonts: 'build/fonts/'
+        img: 'build/assets/img/',
+        fonts: 'build/assets/fonts/'
     },
     src: {
         html: 'src/*.html',
         js: 'src/js/main.js',
         style: 'src/style/main.scss',
-        img: 'src/img/**/*.*',
-        fonts: 'src/fonts/**/*.*'
+        img: 'src/assets/img/**/*.*',
+        fonts: 'src/assets/fonts/**/*.*'
     },
     watch: {
         html: 'src/**/*.html',
         js: 'src/js/**/*.js',
         style: 'src/style/**/*.scss',
-        img: 'src/img/**/*.*',
-        fonts: 'src/fonts/**/*.*'
+        img: 'src/assets/img/**/*.*',
+        fonts: 'src/assets/fonts/**/*.*'
     },
     clean: './build'
 };
