@@ -1,0 +1,25 @@
+.mission__inner {
+	position: relative;
+	height: 100vh;	
+}
+.mission__block {
+	background: $bgColor url('../../assets/img/mountains_block.png') center no-repeat;
+	position: absolute;
+	left: 165px;
+	top: 30px;
+}
+.mission__text {
+	width: 500px;
+	height: auto;
+	position: absolute;
+	left: 522px;
+	top: 240px;
+}
+.mission__title {
+	position: absolute;
+}
+.mission__title-block {
+	position: absolute;
+	top: 225px;
+	left: -60px;
+}
